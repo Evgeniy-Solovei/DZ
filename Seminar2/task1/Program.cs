@@ -7,7 +7,7 @@
 
 Console.WriteLine("Введите 3-ех значное число");
 int number1 = int.Parse(Console.ReadLine()!);
-if (number1 < -999 || number1 > 999)
+if (number1 > -999 && number1 < 999)
 {
     number1 = number1 / 10 % 10;
     Console.WriteLine(number1);

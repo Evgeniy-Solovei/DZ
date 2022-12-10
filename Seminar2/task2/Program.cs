@@ -52,7 +52,7 @@ while (number1 > 1000)
 {
     number1 = number1 / 10;
 }
-if (number1 < 1000)
+if (number1 < 1000 && number1 > 99)
 {
     number1 = number1 % 10;
     Console.WriteLine(number1);
